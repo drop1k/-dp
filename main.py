@@ -27,3 +27,29 @@ def solution(string):
     pass
     return string[::-1]
 #5 задача 
+def string_to_number(s):
+    # your code here
+    pass
+    return int(s)
+#6 задача
+def better_than_average(class_points, your_points):
+    # Your code here
+    suma = 0 
+    for i in class_points: 
+        suma = suma + i 
+        
+    suma = suma + your_points 
+    srednee = suma / (len(class_points) + 1)
+    
+    if your_points > srednee: 
+        return True 
+    else:
+        return False 
+#7 задача
+def simple_multiplication(number) :
+    # Your code goes here
+
+    if number % 2 == 0: 
+        return number * 8 
+    else: 
+        return number * 9
