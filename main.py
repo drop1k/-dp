@@ -15,7 +15,7 @@ def count_positives_sum_negatives(arr):
         elif x < 0:
             summ += x
 
-    return[count, summ]
+    return[count , summ]
 #3 задача
 def zero_fuel(distance_to_pump, mpg, fuel_left):
     if fuel_left * mpg >= distance_to_pump: 
@@ -53,3 +53,9 @@ def simple_multiplication(number) :
         return number * 8 
     else: 
         return number * 9
+#8 задача
+def sum_array(a):
+    pass
+    return sum(a)
+
+#9 задача 
