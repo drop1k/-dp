@@ -97,35 +97,3 @@ def count_sheeps(sheep):
 #18
 def dna_to_rna(dna):
     return dna.replace ('T', 'U')
-#19
-def find_average(numbers):
-    # your code here
-    pass
-    if len(numbers) == 0: 
-        return 0 
-    return sum(numbers) / len(numbers)
-#20
-def descending_order(num):
-    # Bust a move right here
-       return int(''.join(sorted(str(num), reverse = True)))
-#21
-def find_smallest_int(arr):
-    # Code here
-    return min(arr)
-#22
-def make_upper_case(s):
-    # Code here
-    return s.upper()
-#23
-def reverse_seq(n):
-    pass
-    return list(range(n,0,-1))
-#24
-def solution(text, ending):
-    # your code here...
-    pass
-    return text.endswith(ending)
-#25 
-def get_middle(s):
-    pass
-    return s[(len(s)-1)//2:len(s)// 2+1]
