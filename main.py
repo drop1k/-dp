@@ -59,3 +59,21 @@ def sum_array(a):
     return sum(a)
 
 #9 задача 
+def sum_mix(arr):
+    #your code here
+    return sum(int(x)for x in arr)
+#10
+def invert(lst):
+    pass
+    return [-i for i in lst]
+#11 
+def hero(bullets, dragons):
+    return bullets >= dragons * 2
+#12
+def friend(x):
+    #Code
+    return [name for name in x if len(name) == 4 ]
+#13
+def maps(a):
+    pass
+    return [x * 2 for x in a]
