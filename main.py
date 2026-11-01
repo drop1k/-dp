@@ -77,3 +77,23 @@ def friend(x):
 def maps(a):
     pass
     return [x * 2 for x in a]
+#14 
+def even_or_odd(number):
+    pass
+    if number % 2 == 0: 
+        return "Even"
+    else: 
+        return "Odd"
+#15
+def smash(words):
+    return " ".join(words)
+#16
+def repeat_str(repeat, string):
+    return string * repeat
+#17
+def count_sheeps(sheep):
+    return sheep.count(True)
+# TODO May the force be with you
+#18
+def dna_to_rna(dna):
+    return dna.replace ('T', 'U')
